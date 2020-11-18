@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+        /* for screen width up to 600px */
+		@media (max-width: 600px) {
+			h1#title {
+				display: none;
+			}
+		}
+
+        /* for screen width 600 px and above */
+        @media(min-width: 600px) {
+            ul#menu li {
+               display: inline-block;     
+            }
+        }
+	</style>
+</head>
+
+<body>
+	<h1 id="title">Hello World</h1>
+    <ul id="menu">
+        <li>Hello World</li>
+        <li>Goodbye world</li>
+        <li>Bye Bye world</li>
+    </ul>
+</body>
+
+</html>

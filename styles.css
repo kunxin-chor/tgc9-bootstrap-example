@@ -1,0 +1,59 @@
+#content {
+  
+}
+
+#left {
+    background-color: red;
+}
+
+#right {
+    background-color: teal;
+}
+
+#masthead {
+    background-image: url(images/ramen.jpg);
+    height: 90vh;
+    background-size: cover;
+    position:relative;
+}
+
+#cta {
+    background-color: rgba(100, 100, 100, 0.75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cta-div {
+   text-align:center;
+}
+
+#sushi-carousel-image {
+    background-image: url(images/sushi.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+
+#basil-chicken-rice-carousel-image {
+    background-image: url(images/basil_chicken_rice.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+
+#ramen-carousel-image {
+    background-image: url(images/ramen.jpg);
+    background-size: cover;
+    height: 60vh;
+}
+
+#greetings {
+    background-image: url(images/japanese-food.jpg);
+    background-size: cover;
+}
+
+#greetings > div {
+    background-color:rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.42370451598608194) 3%, rgba(3,38,38,0.7150210425967262) 89%, rgba(120,126,126,1) 100%);
+    padding:10px;
+}
